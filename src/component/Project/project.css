@@ -1,0 +1,36 @@
+#project{
+    text-align: center;
+    margin-top: 200px;
+}
+#project h5 {
+    font-size: 1rem;
+  }
+#project h3{
+    font-size: 2rem;
+    margin-bottom: 100px;
+    background: -webkit-linear-gradient(90.21deg, rgb(255, 5, 155) -5.91%, rgb(47, 0, 255) 111.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project_Card {
+    text-align: left;
+    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    margin-bottom: 50px;
+    border-radius: 20px;
+    padding: 16px;
+  }
+
+  .project_Card h4 {
+    padding: 20px 0px;
+  }
+
+  .project_btn Button {
+    margin:0px 13px 10px 0px;
+    background-color:rgb(157, 0, 248) ;
+    border: none;
+  }
+  .project_btn Button:hover{
+    background-color: rgba(245, 222, 179, 0);
+    outline:1px solid rgb(157, 0, 248);
+  }
