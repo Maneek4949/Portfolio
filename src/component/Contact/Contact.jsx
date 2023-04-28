@@ -3,8 +3,8 @@ import emailjs from '@emailjs/browser';
 import { Container ,Row,Col} from "react-bootstrap";
 import "./contact.css";
 import { GoMail } from "react-icons/go";
-import {  FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 
 export const Contact = () => {
   const form = useRef();
@@ -43,10 +43,10 @@ export const Contact = () => {
             <a href="https://www.linkedin.com/in/man0j-prajapati/">Send a message</a>
           </article>
           <article className='social'>
-            <FaInstagram className='s_icon' />
-            <p>Intagram</p>
-            <p>man0j__prajapati </p>
-            <a href="https://www.instagram.com/man0j__prajapati/">Send a message</a>
+            <BsGithub className='s_icon' />
+            <p>GitHub</p>
+            <p>Maneek4949 </p>
+            <a href="https://github.com/Maneek4949">Send a message</a>
           </article>
         </Col>
       <Col xs={12} md={6} xl={6}>
