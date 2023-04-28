@@ -15,8 +15,8 @@ function Project(){
     const projects=[
     {   title:"Ai Wirter",
         imgUrl: ac,
-        github:"https://github.com/Maneek4949/Ai Writer",
-        live:"https://github.com/Maneek4949/Ai Writer"},
+        github:"https://github.com/Maneek4949/Ai-Writer",
+        live:"https://github.com/Maneek4949/Ai-Writer"},
 
     {
         title:"iChat",
