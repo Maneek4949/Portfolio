@@ -32,7 +32,7 @@ nav.navbar .navbar-nav .notActive {
 nav.navbar .navbar-nav .active,
 nav.navbar .navbar-nav a.notActive:hover {
     font-weight: 400;
-    background: -webkit-linear-gradient(90.21deg, rgb(255, 5, 155) -5.91%, rgb(47, 0, 255) 111.58%);
+    background: -webkit-linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 18px;

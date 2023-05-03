@@ -8,14 +8,14 @@
 #project h3{
     font-size: 2rem;
     margin-bottom: 100px;
-    background: -webkit-linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: -webkit-linear-gradient(90.21deg, rgb(255, 5, 155) -5.91%, rgb(47, 0, 255) 111.58%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .project_Card {
     text-align: left;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
     margin-bottom: 50px;
     border-radius: 20px;
     padding: 16px;

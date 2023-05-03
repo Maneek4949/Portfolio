@@ -16,7 +16,7 @@
 
 }
 .social {
-  background: linear-gradient(90.21deg, #920f5e -5.91%, #270f96 111.58%);
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border-radius: 20px;
   border: none;
   margin-bottom: 20px;
