@@ -1,11 +1,9 @@
 import React from "react";
 import { Container,Row,Col } from "react-bootstrap";
-import colorSharp from "../../assets/img/color-sharp.png"
 import { FaHtml5 } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import {FaCss3} from "react-icons/fa";
 import {DiJsBadge} from "react-icons/di";
-import { FaReact} from "react-icons/fa";
 import { FaPython} from "react-icons/fa";
 import { FaNodeJs} from "react-icons/fa";
 import { SiExpress, SiMysql } from "react-icons/si";

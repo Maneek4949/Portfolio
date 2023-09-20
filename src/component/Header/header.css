@@ -55,7 +55,7 @@ nav.navbar .navbar-nav a.notActive:hover {
 .social-icon a{
     width:18px;
     display: inline-flex;
-    margin-right: 6px;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
     opacity: 0.78;

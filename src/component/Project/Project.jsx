@@ -1,7 +1,7 @@
 import React from "react";
 import { Container ,Row,Col} from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import ac from "../../assets/img/AiContent.png"
+import movieApi from "../../assets/img/movieApi.png"
 import ichat from "../../assets/img/ichat.png"
 import docbot from "../../assets/img/docbot.png"
 import study from "../../assets/img/study24.png"
@@ -13,6 +13,12 @@ import "./project.css"
 
 function Project(){
     const projects=[
+       {
+        title:"Movie Search",
+        imgUrl: movieApi,
+        github:"https://github.com/Maneek4949/movie-search",
+        live:"https://jolly-sunshine-ddfe8b.netlify.app/",
+       }, 
     {
         title:"iChat",
         imgUrl: ichat,
