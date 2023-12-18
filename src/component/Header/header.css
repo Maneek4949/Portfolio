@@ -72,13 +72,37 @@ nav.navbar .navbar-nav a.notActive:hover {
   }
 
   @media only screen and (max-width: 600px) {
-    nav.navbar .navbar-nav .active,
-nav.navbar .navbar-nav a.notActive {
-        font-size: .8rem;
+    .navbar-collapse{
+        position:absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        background-image: url("../../assets/img/color-sharp.png");
+        background-color: #1e1f26;
+        
     }
-    .social-icon a{
-        width: .8rem;
+    .navbar-toggler,
+    .navbar-brand{
+        z-index: 1;
+    }
+    .navbar-collapse,.nav-link{
+        font-size: 1.7rem;
+        letter-spacing: 2px;
     }
 
+    .navbar-collapse .nav-link{
+        
+        padding: 0.2rem 0rem;
+        margin-top: 3em;
+    }
+
+    .navbar-text {
+        position: absolute;
+        bottom: 30px;
+    }
 
   }

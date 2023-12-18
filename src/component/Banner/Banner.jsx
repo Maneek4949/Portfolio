@@ -60,8 +60,7 @@ function Banner(){
         <div className="intro">
         <h1>{`Hi I'm Manoj`} <span className="wrap">{text}</span></h1></div>
         <h5 className="info">
-            A tech enthisiast and interested in reaching peep's<br></br> to
-            share thoughts and learn somthing new.
+            A tech enthisiast and eager to innovate.
           </h5>
         </Col>
         <Col xs={12} md={6} xl={5} className="me">

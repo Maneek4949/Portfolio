@@ -34,7 +34,7 @@ function Header () {
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container>
+        <Container id='nav_container'>
           <Navbar.Brand href="/">
             Manoj Prajapati
           </Navbar.Brand>
@@ -49,14 +49,11 @@ function Header () {
               <Nav.Link href="#project" className={activeLink === 'project' ? 'active' : 'notActive'} onClick={() => onUpdateActiveLink('project')}>Projects</Nav.Link>
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active' : 'notActive'} onClick={() => onUpdateActiveLink('contact')}>Contact</Nav.Link>
             </Nav>
-            <span className="navbar-text">
-              <div className="social-icon">
-              <a href="https://mail.google.com/mail/u/0/?fs=1&to=manojprajapati1208@gmail.com&tf=cm"><img src={navIcon2}></img></a>
-                <a href="https://www.linkedin.com/in/man0j-prajapati/"><img src={navIcon1}></img></a>
-                
+              <div className="social-icon navbar-text">
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=manojprajapati1208@gmail.com&tf=cm"><img src={navIcon2}></img></a>
+                <a href="https://www.linkedin.com/in/man0j-prajapati/"><img src={navIcon1}></img></a> 
                 <a href="https://github.com/Maneek4949/"><img src={navIcon3}></img></a>
               </div>
-            </span>
           </Navbar.Collapse>
         </Container>
       </Navbar>
