@@ -12,6 +12,8 @@ function Header () {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+
 
   useEffect(() => {
     const onScroll = () => {
@@ -29,16 +31,16 @@ function Header () {
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    setExpanded(false);
   }
 
   return (
-    <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+      <Navbar expand="md" className={scrolled ? "scrolled" : ""} expanded={expanded}>
         <Container id='nav_container'>
           <Navbar.Brand href="/">
             Manoj Prajapati
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)}>
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
@@ -57,7 +59,6 @@ function Header () {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </Router>
   )
 }
 
