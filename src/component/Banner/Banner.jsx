@@ -1,11 +1,10 @@
 import { useState,useEffect } from "react";
-import { Container ,Row, Col } from "react-bootstrap";
-import HeaderImg from "../../assets/img/banner.png";
-import './banner.css'
+import AvtaarImg from "../../assets/img/Banner1.png";
+import hand from "../../assets/img/hand.png";
 
 function Banner(){
     const [loopNum ,setLoopNum]=useState(0);
-    const toRotate=["Web Developer","Web Designer" ,"Student"]
+    const toRotate=["Full Stack Deveplor","React Developer" , "Dreamer"]
     const [deleting ,setDeleting]=useState(false)
     const [index,setIndex] = useState(1);
     const [text,setText]=useState("")
@@ -47,27 +46,22 @@ function Banner(){
 
 
     }
-
-
-
-
     return (
-        <section className="banner" id="home">
-        <Container>
-        <Row className="align-items-center">
-        <Col xs={12} md={6} xl={7} className="text">
-        <span className="tagline"> Welcome to my Portfolio</span>
-        <div className="intro">
-        <h1>{`Hi I'm Manoj`} <span className="wrap">{text}</span></h1></div>
-        <h5 className="info">
-            A tech enthisiast and eager to innovate.
-          </h5>
-        </Col>
-        <Col xs={12} md={6} xl={5} className="me">
-            <img src={HeaderImg} alt="Header Img"/>
-        </Col>
-        </Row>
-        </Container>
+        <section className="mt-40" id="home">
+        <div className="container mx-auto">
+            <div className="grid md:grid-cols-3 gap-4">
+                <div className="md:col-span-2 flex flex-col justify-center h-full">
+                    <span className="relative bottom-1 text-xl"> Welcome to my Portfolio</span>
+                    <h1 >Hi {"I'm Manoj "}<span className="bg-gradient-to-r from-fuchsia-700 to-indigo-800 text-transparent bg-clip-text">{ " "+text}</span></h1>
+                    <h5 className="text-xl opacity-80">A tech enthisiast and eager to innovate.</h5>
+                </div>
+                <div className="relative">
+                <img  src={AvtaarImg} alt="avImg"/>
+                <img className='absolute bottom-0 animate-waving-hand' src={hand} alt="hand"/>
+                </div>
+                
+            </div>
+        </div>
         </section>
 
     )

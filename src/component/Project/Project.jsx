@@ -1,18 +1,21 @@
 import React from "react";
-import { Container ,Row,Col} from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import movieApi from "../../assets/img/movieApi.png"
 import ichat from "../../assets/img/ichat.png"
 import docbot from "../../assets/img/docbot.png"
-import study from "../../assets/img/study24.png"
+import blog from "../../assets/img/vlog.png"
 import weather from "../../assets/img/waether.png"
 import keeper from "../../assets/img/keeper.png"
-import sef from "../../assets/img/sef.png"
-import "./project.css"
 
 
 function Project(){
     const projects=[
+        {
+            title:"Blog App",
+            imgUrl: blog,
+            github:"https://github.com/Maneek4949/Blog",
+            live:"https://github.com/Maneek4949/Blog",
+           }, 
        {
         title:"Movie Search",
         imgUrl: movieApi,
@@ -30,18 +33,6 @@ function Project(){
         github:"https://github.com/Maneek4949/f_docbot",
         live:"https://github.com/Maneek4949/f_docbot",
     },
-
-    {
-        title:"Student Enrollment Form",
-        imgUrl:sef,
-        github:"https://github.com/Maneek4949/Student-Enrollment-Form",
-        live:"https://github.com/Maneek4949/Student-Enrollment-Form",
-    },
-    {   title:"Study 24x7",
-        imgUrl: study,
-        github:"https://github.com/Maneek4949/Study24x7",
-        live:"https://maneek4949.github.io/Study24x7/",
-    },
     {   title:"Weather App",
         imgUrl: weather,
         github:"https://github.com/Maneek4949/weather-app",
@@ -55,20 +46,17 @@ function Project(){
 
 ]
     return(
-        <section className="project" id="project">
-                
-        <h5 data-aos="flip-down" >My Rescent Works</h5>
-        <h3 data-aos="flip-down" >Technical Skills</h3>
-                <Container>
-                <Row >
-                {projects.map((project, index)=>{
-                    return (
-                <ProjectCard 
-                key={index}
-                {...project}
-                />)
-                })}
-</Row></Container>
+        <section className="text-center mt-40" id="projects">
+                <h5 className="opacity-80" data-aos="flip-down" >My Rescent Works</h5>
+                <h3 data-aos="flip-down" className="mb-20 text-3xl bg-gradient-to-r from-hpink to-indigo-800 text-transparent bg-clip-text" >Technical Skills</h3>
+                <div className="container" >
+                    <div className="md:grid md:grid-cols-3 md:gap-x-4 gap-y-12 grid grid-rows-1">
+                        {projects.map((project, index)=>{
+                            return (
+                        <ProjectCard key={index} {...project}/>)
+                        })}
+                    </div>
+                </div>
         </section>
     )
 }
