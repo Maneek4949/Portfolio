@@ -47,10 +47,10 @@ export const Contact = () => {
         </div>
       <div className='md:col-span-5'>
     <form  className='flex flex-col gap-3' ref={form} onSubmit={sendEmail}>
-      <input className=' p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600' type="text" name="from_name" placeholder='Full Name' />
-      <input className=' p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600 ' type="text" name="subject" placeholder='Subject' />
-      <input className=' p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600' type="email" name="user_email" placeholder='Email'/>
-      <textarea className='h-32 p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600' name="message" placeholder='Message' />
+      <input className=' p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600 focus:outline-none' type="text" name="from_name" placeholder='Full Name' />
+      <input className=' p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600  focus:outline-none' type="text" name="subject" placeholder='Subject' />
+      <input className=' p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600 focus:outline-none' type="email" name="user_email" placeholder='Email'/>
+      <textarea className='h-32 p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 focus:border-purple-600 focus:outline-none' name="message" placeholder='Message' />
 
       <input type="submit" value="Send" className='p-6  rounded-lg bg-inputbg  border-2 border-solid border-purple-900 hover:bg-purple-800 hover:border-purple-600' />
     </form>
