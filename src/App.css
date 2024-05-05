@@ -24,14 +24,15 @@ html {
   }
 
 body {
-
+    width: 100%;
     position: relative;
     font-family: 'Centra', sans-serif !important;
     background-color: #1e1f26 !important;
     color: #fff !important;
     background-image: url("./assets/img/color-sharp.png");
     background-repeat: repeat-y;
-    
-    
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
     }
 
