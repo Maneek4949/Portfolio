@@ -134,6 +134,49 @@ function Skills(){
         </div>
         </div>
         </section>
+    //     <section id="skills">
+
+            
+    //   <div className="animate-rotate-planet absolute h-[500px] w-[500px]">
+    //   <div className="relative h-full w-full rounded-full" style={{ transform: 'none'}}>
+    //     <div className="absolute h-full w-full scale-[0.925] rounded-full ring-1 ring-gray-100"></div>
+    //     <div className="absolute top-[50%] flex h-[44px] w-[500px] transform scale-y-[-1] justify-between">
+    //       <div className=" h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100">
+    //         <img src="https://mercor.com/graphic/outer/docker.svg" className="h-full w-full rounded-md p-0.5" alt="css" />
+    //       </div>
+    //       <div className="graphic-item-inner h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100">
+    //         <img src="https://mercor.com/graphic/outer/docker.svg" className="h-full w-full rounded-md p-0.5" alt="go" />
+    //       </div>
+    //     </div>
+    //     <div className="absolute left-[50%] flex h-[500px] w-[44px] -translate-x-[50%] flex-col justify-between">
+    //       <div className="animate-rotate-item-planet h-[44px] w-[44px] transform scale-y-[-1] rounded-full bg-red-400 p-2">
+    //         <img src="https://mercor.com/graphic/outer/docker.svg" className="h-full w-full -rotate-45 rounded-md p-0.5" alt="html" />
+    //       </div>
+    //       <div className="graphic-item-inner h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100">
+    //         <img src="/graphic/inner/java.svg" className="h-full w-full rounded-md p-0.5" alt="java" />
+    //       </div>
+    //     </div>
+    //     <div className="absolute left-[50%] flex h-[500px] w-[44px] -translate-x-[50%] rotate-45 flex-col justify-between">
+    //       <div className="graphic-item-inner h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100">
+    //         <img src="/graphic/inner/javascript.svg" className="h-full w-full -rotate-45 rounded-md p-0.5" alt="javascript" />
+    //       </div>
+    //       <div className="graphic-item-inner h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100">
+    //         <img src="/graphic/inner/python.svg" className="h-full w-full -rotate-45 rounded-md p-0.5" alt="python" />
+    //       </div>
+    //     </div>
+    //     <div className="absolute left-[50%] flex h-[500px] w-[44px] -translate-x-[50%] -rotate-45 flex-col justify-between">
+    //       <div className="graphic-item-inner h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100">
+    //         <img src="/graphic/inner/swift.svg" className="h-full w-full rotate-45 rounded-md p-0.5" alt="swift" />
+    //       </div>
+    //       <div className="graphic-item-inner h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100">
+    //         <img src="/graphic/inner/typescript.svg" className="h-full w-full rotate-45 rounded-md p-0.5" alt="typescript" />
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+
+    //     </section>
+    
     )
 }
 
