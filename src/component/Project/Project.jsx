@@ -47,7 +47,7 @@ function Project(){
 ]
     return(
         <section className="text-center mt-40" id="projects">
-                <h5 className="opacity-80" data-aos="flip-down" >My Rescent Works</h5>
+                <h5 className="opacity-80" data-aos="flip-down" >My Recent Works</h5>
                 <h3 data-aos="flip-down" className="mb-20 text-3xl bg-gradient-to-r from-hpink to-indigo-800 text-transparent bg-clip-text" >Technical Skills</h3>
                 <div className="container" >
                     <div className="md:grid md:grid-cols-3 md:gap-x-4 gap-y-12 grid grid-rows-1">

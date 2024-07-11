@@ -15,9 +15,15 @@ module.exports = {
           '50%': { transform: 'rotate(2deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
         },
+        solar:{
+          '0%': { transform: 'rotate(0.0deg)'},
+          '100%':{ transform: 'rotate(1turn)'}
+        },
       },
       animation: {
         'waving-hand': 'wave 2s linear infinite',
+        'rotate-planet':'solar 10s linear infinite',
+        'rotate-item-planet':'solar 10s linear infinite reverse'
       },
       colors:{
         hpink:"#ff059b",
