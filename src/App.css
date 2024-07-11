@@ -31,7 +31,6 @@ body {
     color: #fff !important;
     background-image: url("./assets/img/color-sharp.png");
     background-repeat: repeat-y;
-    overflow-x: hidden; /* Hides horizontal scrollbar */
     margin: 0; /* Reset default margin */
     padding: 0; /* Reset default padding */
     }
