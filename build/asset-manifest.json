@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.619c5d67.css",
+    "main.js": "/Portfolio/static/js/main.35df661f.js",
+    "static/js/787.2dcca737.chunk.js": "/Portfolio/static/js/787.2dcca737.chunk.js",
+    "static/media/color-sharp.png": "/Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/Banner1.png": "/Portfolio/static/media/Banner1.ba6d976e64ac911dbe22.png",
+    "static/media/docbot.png": "/Portfolio/static/media/docbot.85d9c9a319abd86a4a58.png",
+    "static/media/about.svg": "/Portfolio/static/media/about.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/vlog.png": "/Portfolio/static/media/vlog.ab4d3a309e92d583f399.png",
+    "static/media/CentraNo2-Bold.ttf": "/Portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/Portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/Portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/ichat.png": "/Portfolio/static/media/ichat.593f5932e363c2777e6a.png",
+    "static/media/movieApi.png": "/Portfolio/static/media/movieApi.c0718253d944ecf1eb1f.png",
+    "static/media/waether.png": "/Portfolio/static/media/waether.038293ff5910388710b2.png",
+    "static/media/keeper.png": "/Portfolio/static/media/keeper.562aaece542d9fd075ed.png",
+    "static/media/hand.png": "/Portfolio/static/media/hand.0574ab58d70f38ee6006.png",
+    "index.html": "/Portfolio/index.html",
+    "main.619c5d67.css.map": "/Portfolio/static/css/main.619c5d67.css.map",
+    "main.35df661f.js.map": "/Portfolio/static/js/main.35df661f.js.map",
+    "787.2dcca737.chunk.js.map": "/Portfolio/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.619c5d67.css",
+    "static/js/main.35df661f.js"
+  ]
+}
