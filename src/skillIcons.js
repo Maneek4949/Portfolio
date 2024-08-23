@@ -20,8 +20,8 @@ import next from "./assets/icons/next.svg"
 
 
 export const innnerSkills = [[
-    { src: html, alt: 'html',rotate:"",direction:"horizontal", rotate:""},
-    { src: css, alt: 'css' ,rotate:"",direction:"horizontal", rotate:""},
+    { src: html, alt: 'html',direction:"horizontal", rotate:""},
+    { src: css, alt: 'css' ,direction:"horizontal", rotate:""},
   ],
   [
      { src: javascript, alt: 'javascript',direction:"vertical",rotate:""},
@@ -38,8 +38,8 @@ export const innnerSkills = [[
 ]
 
 export const outerSkills = [[
-    { src: python, alt: 'python',rotate:"",direction:"horizontal", rotate:""},
-    { src: django, alt: 'django' ,rotate:"",direction:"horizontal", rotate:""},
+    { src: python, alt: 'python',direction:"horizontal", rotate:""},
+    { src: django, alt: 'django' ,direction:"horizontal", rotate:""},
   ],
   [
      { src: next, alt: 'next',direction:"vertical",rotate:""},

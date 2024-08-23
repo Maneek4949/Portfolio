@@ -8,7 +8,7 @@ function SkillItem({ src, alt, rotate, isInner }) {
         return rotate; // In case rotate is already valid
     })();
     return (
-      <div className={`${isInner?"animate-item-inner":"animate-item-outer"} h-[44px] w-[44px] rounded-full bg-gray-50 p-2 ring-1 ring-gray-100`}>
+      <div className={`${isInner?"animate-item-inner":"animate-item-outer"} h-11 w-11 rounded-full bg-gray-50 p-2 ring-1 ring-gray-100`}>
         <img src={src} alt={alt} className={`h-full w-full rounded-md p-0.5 ${rotateIcons}`} />
       </div>
     );
