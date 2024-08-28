@@ -1,18 +1,53 @@
-import React from 'react';
-import SkillRow from './SkillRow';
+import { twMerge } from "tailwind-merge";
+import clsx from "clsx";
 
-
-function SkillCircle({isInner,skillsList}) {
+export function cn(...inputs) {
+  return twMerge(clsx(inputs));
+}
+export default function SkillCircle({
+  className,
+  children,
+  reverse,
+  duration = 20,
+  delay = 10,
+  radius = 50,
+  path = true,
+}) {
   return (
-    <div className={`absolute ${isInner ? "top-24 h-[500px] w-[500px] animate-inner " : "h-[700px] w-[700px] animate-outer"}`}>
-      <div className="relative h-full w-full rounded-full" style={{ transform: 'none' }}>
-        <div className={`absolute h-full w-full rounded-full ring-1 ring-gray-100 ${isInner?" scale-[0.925] ":"scale-[0.935]"}`}></div>
-        {skillsList.map((rowItem)=>(
-          <SkillRow key={rowItem[0].alt} items={rowItem} direction={rowItem[0].direction} isInner={isInner}/>
-        ))}
+    <>
+      {path && (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          version="1.1"
+          className="pointer-events-none absolute inset-0 size-full"
+        >
+          <circle
+            className="stroke-black/10 stroke-1 dark:stroke-white/10"
+            cx="50%"
+            cy="50%"
+            r={radius}
+            fill="none"
+            
+          />
+        </svg>
+      )}
+
+      <div
+        style={
+          {
+            "--duration": duration,
+            "--radius": radius,
+            "--delay": -delay,
+          }
+        }
+        className={cn(
+          "absolute flex size-full transform-gpu animate-orbit items-center justify-center rounded-full bg-gray-100 z-10 p-2.5 [animation-delay:calc(var(--delay)*1000ms)] ",
+          { "[animation-direction:reverse]": reverse },
+          className,
+        )}
+      >
+        {children}
       </div>
-    </div>
+    </>
   );
 }
-
-export default SkillCircle;
